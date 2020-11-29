@@ -26,6 +26,10 @@ while ($i <= 365){
   $i++;
 }
 
+for ($in=1; $in<=365; $in++){
+  print($in . "\n");
+}
+
 ?>
 </pre>
 </main>
