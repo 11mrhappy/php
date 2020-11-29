@@ -19,9 +19,7 @@
 <h2>Practice</h2>
 <pre>
 <?php
-print('php勉強中');
-print('hello');
-echo 'morning';
+  print(1+1);
 ?>
 </pre>
 </main>
