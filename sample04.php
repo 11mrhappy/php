@@ -19,10 +19,10 @@
 <h2>Practice</h2>
 <pre>
 <?php
-echo date('l');
-print(date('G時 i分 s秒'));
-
+  $today = new DateTime();
+  print($today->format('G時 i分 s秒'));
 ?>
+
 </pre>
 </main>
 </body>    
