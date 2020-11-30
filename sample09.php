@@ -25,10 +25,10 @@
     'lemon'=>'レモン'
   ];
 
-  foreach ($fruits as $english => $japanese){
+  foreach ($fruits as $english => $japanese):
     print ($english . ":" . $japanese . "\n");
     
-  }
+  endforeach
 ?>
 </pre>
 </main>
