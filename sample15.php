@@ -28,6 +28,7 @@
   endforeach;
 ?>
 
+var_dump(変数)で処理やデータの情報が見れる
 </pre>
 </main>
 </body>    
