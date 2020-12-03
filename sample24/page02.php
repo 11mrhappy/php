@@ -18,7 +18,8 @@
 <main>
 <h2>Practice</h2>
 <pre>
-  <?php print($_COOKIE['save_message']); ?>
+  変数の値: <?php print($value); ?>
+  Cookieの値: <?php print($_COOKIE['save_message']); ?>
 </pre>
 </main>
 </body>    
