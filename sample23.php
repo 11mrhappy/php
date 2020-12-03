@@ -17,6 +17,25 @@
 
 <main>
 <h2>Practice</h2>
+<table>
+  <?php
+  for ($t=1; $t<=10; $t++){
+    if($t % 3){
+      print('<tr style="background-color: #ccc">');
+    }else{
+      print('<tr>');
+    }
+    print('<td>' . $t . '行目</td>');
+    print('</tr>');
+  }
+  ?>
+  <!-- <tr>
+    <td>1行目</td>
+  </tr>
+  <tr style="background-color: #ccc">
+    <td>2行目</td>
+  </tr> -->
+</table>
 <pre>
   <?php
   $week = ['金','土','日','月','火','水','木'];
