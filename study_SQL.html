@@ -16,6 +16,8 @@
 <div>CREATE TABLE テーブル名 でテーブルを作り、その後(カラム名 カラムの形, ・・・)とする;</div>
 <div>UPDATE テーブル名 でデータの更新ができる、WHERE id=1などで場所を示す必要がある。もしWHEREがないとテーブル内の全データが書き換えられる;</div>
 <div>DELETE FROM テーブル名 で、WHERE id=1 などでデータを削除する。WHEREがないとテーブル内の全データを削除するので注意</div>
+<div>idが2と2みたいにかぶらないようにプライマリーキーを設定する。テーブルを殻にした状態で構造(Structure)からid欄の主(primary)を実行する;</div>
+<div>テーブル作成する上でidのNULL indexでprimaryにしておけば最初からprimary keyにしておける</div>
 <div></div>
 </body>
 </html>
