@@ -19,6 +19,9 @@
 <div>idが2と2みたいにかぶらないようにプライマリーキーを設定する。テーブルを殻にした状態で構造(Structure)からid欄の主(primary)を実行する;</div>
 <div>テーブル作成する上でidのNULL indexでprimaryにしておけば最初からprimary keyにしておける</div>
 <div>idを自動で連番にしてくれる AUTO_INCREMENT は、カラム編集の A_I にチェックを入れることで設定可能</div>
-<div>SELECT * FROM テーブル名 WHERE id=1; などでidが1のデータを見れるが、WHERE カラム名 LIKE '%キーワード%'でそのキーワードが含まれるカラムを探せる</div>
+<div>SELECT * FROM テーブル名 WHERE id=1; などでidが1のデータを見れるが、WHERE カラム名 LIKE を使うことで検索機能を使える</div>
+<div>LIKE '%キーワード%'なら指定したカラムにキーワードが含まれていればヒットする</div>
+<div>'キーワード%'は前方一致といい、最初にキーワードが含まれるものを探す</div>
+<div>'%キーワード'は後方一致、最後に含まれるもののみヒットさせる</div>
 </body>
 </html>
