@@ -27,5 +27,8 @@
 <div>カラム型のTIMESTAMPはデータ登録時間や更新時間がカラムの値として保存される</div>
 <div>SELECT SUM(price) FROM テーブル名 でpriceカラムの合計値を出力する</div>
 <div>MAXは最大のもの、MINは最小のもの、COUNTは件数、AVGはアベレージ(平均値)を得る。</div>
+<div>SELECT * FROM makers, my_items WHERE my_items.id=1 AND makers.id=my_items.maker_id;</div>
+<div>まずFROMの後につなげたいテーブルを全て , でつなげる。そしてWHERE id=idのように紐付ける。今回は makers.id=my_items.maker_id。ついでにmy_items.id=1でさらに条件を絞っている;
+</div>
 </body>
 </html>
