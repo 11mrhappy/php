@@ -28,7 +28,9 @@
 <div>SELECT SUM(price) FROM テーブル名 でpriceカラムの合計値を出力する</div>
 <div>MAXは最大のもの、MINは最小のもの、COUNTは件数、AVGはアベレージ(平均値)を得る。</div>
 <div>SELECT * FROM makers, my_items WHERE my_items.id=1 AND makers.id=my_items.maker_id;</div>
-<div>まずFROMの後につなげたいテーブルを全て , でつなげる。そしてWHERE id=idのように紐付ける。今回は makers.id=my_items.maker_id。ついでにmy_items.id=1でさらに条件を絞っている;
-</div>
+<div>まずFROMの後につなげたいテーブルを全て , でつなげる。そしてWHERE id=idのように紐付ける。今回は makers.id=my_items.maker_id。ついでにmy_items.id=1でさらに条件を</div>
+<div>WHERE句やORDER BYを組み合わせる場合はWHEREが先にくる。</div>
+<div>例えばnameカラムがそれぞれ「いちご」「バナナ」「ブルーベリー」「りんご」が昇順で並ぶと、いちご→りんご→バナナ→ブルーベリーの順になる。ひらがなとカタカナは別物として認識される。漢字もまた別。;</div>
+<div>じゃあどうやってひらがな、カタカナ、漢字を別々にせずに並べるのか > kanaカラムを増やす。ひらがなならひらがな、カタカナならカタカナで全部統一する;</div>
 </body>
 </html>
