@@ -46,5 +46,7 @@
 <div>SELECT i.item_name, SUM(c.count) FROM my_items i, carts c WHERE i.id=c.item_id GROUP BY c.item_id;
   これは商品名と売上の合計を取得するSQLで、iとかcは、my_itemsとcartsテーブルの略称。FROM テーブル名 の後につけたい略称のアルファベット一文字を置くことで、そのSQL上ではそのアルファベットをテーブルとして使うことができるため見やすくなる。;
 </div>
+<div>DBのバックアップを取ろう。手順 > エクスポート(1つのテーブルのみではなく、DBをエクスポートする。ホームからエクスポートすると全DBをエクスポートできる);</div>
+<div> >エクスポート時はquick(簡易)かcustom(詳細)を選べる、普通はquickでいいけど、macOSは詳細にし「出力をファイルに保存するにチェック」「生成オプション」で「CREATE TABLEコマンドを追加するにチェック」で実行</div>
 </body>
 </html>
